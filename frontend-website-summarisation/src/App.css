@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p, ul {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}

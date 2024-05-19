@@ -1,0 +1,163 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/hp/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 60271, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (Amazon.com Inc. Java 1.8.0_382)
+[debug]       Load.loadUnit: plugins took 43.2916ms
+[debug]       Load.loadUnit: defsScala took 0.2551ms
+[debug] [Loading] Scanning directory C:\Users\hp\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hp\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.525 ms
+[debug]           Load.resolveProject(global-plugins) took 2.1712ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\hp\.sbt\1.0\plugins, plugins: List(<none>))) took 6.629ms
+[debug] [Loading] Done in C:\Users\hp\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 8.879ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0156ms
+[debug]     Load.loadUnit(file:/C:/Users/hp/.sbt/1.0/plugins/, ...) took 55.9066ms
+[debug]   Load.apply: load took 58.4803ms
+[debug]   Load.apply: resolveProjects took 0.222ms
+[debug]   Load.apply: finalTransforms took 16.4909ms
+[debug]   Load.apply: config.delegates took 0.5927ms
+[debug]   Load.apply: Def.make(settings)... took 106.1288ms
+[debug]   Load.apply: structureIndex took 36.97ms
+[debug]   Load.apply: mkStreams took 0.0056ms
+[info] loading global plugins from C:\Users\hp\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 673.8349ms
+[debug]           Load.loadUnit: plugins took 33.3783ms
+[debug]           Load.loadUnit: defsScala took 0.0043ms
+[debug] [Loading] Scanning directory C:\Users\hp\Desktop\Website-Summarisation\backend-scala\project
+[debug]             Load.loadUnit: mkEval took 0.3424ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hp\Desktop\Website-Summarisation\backend-scala\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2015 ms
+[info] loading settings for project backend-scala-build from plugins.sbt,idea5.sbt ...
+[debug]               Load.resolveProject(backend-scala-build) took 2.6977ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id backend-scala-build, base: C:\Users\hp\Desktop\Website-Summarisation\backend-scala\project, plugins: List(<none>))) took 5.7186ms
+[debug] [Loading] Done in C:\Users\hp\Desktop\Website-Summarisation\backend-scala\project, returning: (backend-scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 45.7027ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.9574ms
+[debug]         Load.loadUnit(file:/C:/Users/hp/Desktop/Website-Summarisation/backend-scala/project/, ...) took 83.4832ms
+[debug]       Load.apply: load took 85.6695ms
+[debug]       Load.apply: resolveProjects took 0.1874ms
+[debug]       Load.apply: finalTransforms took 9.6497ms
+[debug]       Load.apply: config.delegates took 0.6106ms
+[debug]       Load.apply: Def.make(settings)... took 78.5751ms
+[debug]       Load.apply: structureIndex took 25.6816ms
+[debug]       Load.apply: mkStreams took 0.0034ms
+[info] loading project definition from C:\Users\hp\Desktop\Website-Summarisation\backend-scala\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 501.3135ms
+[debug]     Load.loadUnit: defsScala took 0.0065ms
+[debug] [Loading] Scanning directory C:\Users\hp\Desktop\Website-Summarisation\backend-scala
+[debug]       Load.loadUnit: mkEval took 0.5354ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hp\Desktop\Website-Summarisation\backend-scala, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.2683 ms
+[info] loading settings for project backend-scala from build.sbt ...
+[debug]         Load.resolveProject(backend-scala) took 60.7832ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id backend-scala, base: C:\Users\hp\Desktop\Website-Summarisation\backend-scala, plugins: List(<none>))) took 64.9629ms
+[debug] [Loading] Done in C:\Users\hp\Desktop\Website-Summarisation\backend-scala, returning: (backend-scala)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1456.0758ms
+[debug]     Load.loadUnit: cleanEvalClasses took 22.5172ms
+[debug]   Load.loadUnit(file:/C:/Users/hp/Desktop/Website-Summarisation/backend-scala/, ...) took 1980.9726ms
+[debug] Load.apply: load took 1983.3644ms
+[debug] Load.apply: resolveProjects took 0.197ms
+[debug] Load.apply: finalTransforms took 31.0004ms
+[debug] Load.apply: config.delegates took 0.5222ms
+[debug] Load.apply: Def.make(settings)... took 77.0161ms
+[debug] Load.apply: structureIndex took 23.7526ms
+[debug] Load.apply: mkStreams took 0.0043ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to backend-scala (in build file:/C:/Users/hp/Desktop/Website-Summarisation/backend-scala/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * backend-scala / idePackagePrefix
+[warn]   +- C:\Users\hp\Desktop\Website-Summarisation\backend-scala\build.sbt:4
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to backend-scala (in build file:/C:/Users/hp/Desktop/Website-Summarisation/backend-scala/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/hp/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Writing structure to C:\Users\hp\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 22 s, completed 19 May, 2024 5:19:58 PM
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to backend-scala (in build file:/C:/Users/hp/Desktop/Website-Summarisation/backend-scala/)
+[debug] > Exec(set ideaPort in Global := 60271, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to backend-scala (in build file:/C:/Users/hp/Desktop/Website-Summarisation/backend-scala/)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
